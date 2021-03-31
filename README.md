@@ -5,7 +5,7 @@ Populates a users spot, margin (cross AND isolated) and futures data for:
 
 1. Trades
 2. Orders
-3. Open position dashboards
+3. Open position dashboards (updated every 1 minute)
 4. Loans/Repayments for margin accounts
 
 ## Currently working on:
