@@ -1,5 +1,5 @@
 # binance-portfolio-trader
-## Written in Python3 with a MySQL database
+## Written in Python with a MySQL database
 
 Populates a users spot, margin (cross AND isolated) and futures data for:
 
