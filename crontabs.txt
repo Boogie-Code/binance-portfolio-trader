@@ -1,3 +1,6 @@
+# Need to update the {username} on each line to your own username for linux OS
+# Need to update filepath if directory structure has changed
+
 * * * * * python3 /home/{username}/Python_Files/marginBalances_to_MySQL.py >> /home/{username}/cron.log 2>&1
 * * * * * python3 /home/{username}/Python_Files/marginLoans_to_MySQL.py >> /home/{username}/cron.log 2>&1
 * * * * * python3 /home/{username}/Python_Files/spotBalances_to_MySQL.py >> /home/{username}/cron.log 2>&1
