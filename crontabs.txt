@@ -1,0 +1,10 @@
+* * * * * python3 /home/{username}/Python_Files/marginBalances_to_MySQL.py >> /home/{username}/cron.log 2>&1
+* * * * * python3 /home/{username}/Python_Files/marginLoans_to_MySQL.py >> /home/{username}/cron.log 2>&1
+* * * * * python3 /home/{username}/Python_Files/spotBalances_to_MySQL.py >> /home/{username}/cron.log 2>&1
+* * * * * python3 /home/{username}/Python_Files/coinsTraded_to_MySQL.py >> /home/{username}/cron.log 2>&1
+* * * * * python3 /home/{username}/Python_Files/marginTrades_to_MySQL.py >> /home/{username}/cron.log 2>&1
+* * * * * python3 /home/{username}/Python_Files/marginOrders_to_MySQL.py >> /home/{username}/cron.log 2>&1
+* * * * * python3 /home/{username}/Python_Files/findAvgPrice.py >> /home/{username}/cron.log 2>&1
+0 0 * * * sudo apt apt-get update && apt-get -y -d upgrade >> /home/{username}/cron.log 2>&1
+*/5 * * * * python3 /home/{username}/Python_Files/universe_to_MySQL.py >> /home/{username}/cron.log 2>&1
+0 * * * * python3 /home/{username}/Python_Files/24hrStats.py >> /home/{username}/cron.log 2>&1
