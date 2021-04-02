@@ -4,3 +4,4 @@ binance-client
 datetime
 pymongo
 python-binance
+dnspython
