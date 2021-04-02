@@ -1,5 +1,5 @@
 #PYTHON REQUIRED DEPENDANCIES
 
-mysql-connector
 binance-client
 datetime
+pymongo
