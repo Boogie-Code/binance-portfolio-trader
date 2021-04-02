@@ -1,5 +1,6 @@
 #PYTHON REQUIRED DEPENDANCIES
 
+python-binance
 mysql-connector
 binance-client
 datetime
